@@ -1,0 +1,58 @@
+body{
+    padding: 3rem 0rem;
+}
+.dropdown{
+    display: inline-block;
+}
+.tabel{
+    width: 87%;
+    margin-left: 1rem;
+    display: inline-table;
+}
+th{
+    width: 10rem;
+}
+select,
+input{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #999;
+    padding-left: 1rem;
+}
+.option, 
+.quantity,
+.stock{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+#kurang{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+#tambah{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btnHapus{
+    padding: 0px 7px;
+    font-size: 20px;
+    background-color: #fff;
+    color: blue;
+    border: none;
+    border-radius: 50%;
+}
+.hapus{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
